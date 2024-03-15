@@ -1,0 +1,25 @@
+.certificate {
+  border: 1px solid #242F35;
+  padding: 0.4em;
+  font-size: 0.7em;
+  cursor: pointer;
+  display: flex;
+}
+
+
+.selected {
+  background-color: #d2d2d2;
+  justify-content: space-between;
+}
+
+
+.selected p {
+  align-self: center;
+  text-align: right;
+}
+
+.empty-list {
+  align-self: center;
+  text-align: center;
+  color: #c0c0c0;
+}

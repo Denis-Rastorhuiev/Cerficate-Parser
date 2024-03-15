@@ -1,0 +1,19 @@
+.add-button{
+    width: 6em;
+    align-self: center;
+    height: 2em;
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 0.5em;
+    cursor: pointer;
+    outline: none;
+}
+
+.add-button:hover{
+    background-color: #ccc;
+}
+
+.add-button:active{
+    background-color: #aaa;
+}

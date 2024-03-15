@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --main-teme-color: #242F35;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.area{
+    width: 55%;
+    height: 50%;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3%;
+    font-size: 0.7em;
+    line-height: 1.6;
+    overflow-y: auto;
+    margin: 5%;
+}
+
+.drop-area {
+    border: 2px dashed var(--main-teme-color);
+    color: #c0c0c0;
+}
+
+.choose-area {
+    border: 2px solid var(--main-teme-color);
+}
+
+.file-input {
+    position: relative;
+    left: 25%;
+    display: inline-block;
+    padding: 0 2% 2% 2%;
+    border: 2px solid var(--main-teme-color);
+    border-radius: 10px;
+    color: var(--main-teme-color);
+    cursor: pointer;
+    width: 50%;
+    opacity: 1;
+    line-height: 1;
+}
+
+.file-input input[type=file]:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+
+.file-input input[type=file] {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.file-input input[type=file]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.file-input span {
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+
+.cer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 5%;
+}
